@@ -1,23 +1,29 @@
 h1 {
-	color: red;
-	text-align: center;
+	color: black;
+	text-align: left;
 	text-decoration: underline;
 	font-family: "Helvetica";
 }
 
-#anotherh1 {
+#b1 {
+	color: black;
+	text-align: left;
+	font-family: "Helvetica";
+}
+
+/*#anotherh1 {
 	color: blue;
 	font-family: "Comic Sans MS";
 }
 
 #anotherh1:hover {
 	color: green;
-	/*opacity: 0;*/ /*uncomment to see disappear*/
+	opacity: 0;
 	transform: translateY(20px);
-}
+}*/
 
-#Harit {
+/*#Harit {
 	background-color: red;
 	height: 100px;
 	width: 100px;
-}
+}*/
