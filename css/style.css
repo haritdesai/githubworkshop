@@ -1,16 +1,17 @@
-.large-header {
-   position: relative;
-   width: 100%;
-   background: #111;
-   overflow: hidden;
-   background-size: cover;
-   background-position: center center;
-   z-index: 1;
+html {
+	background: url(../img/galaxy.jpg) no-repeat center center fixed; 
+	background-size: cover;
+  	position: relative;
+   	width: 100%;
+   	overflow: hidden;
+   	background-size: cover;
+   	background-position: center center;
+   	z-index: 1;
 }
 
-.demo .large-header {
-   /*background-image: url(../img/eso0116a.jpg);*/
-}
+/*.demo .large-header {
+   background-image: url(../img/galaxy.jpg);
+}*/
 
 .main-title {
    position: absolute;
