@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-js plugin working
-=======
 # Personal Website
-*Initial Commit
->>>>>>> origin
+
+Personal Portfolio Website - Work in Progress
