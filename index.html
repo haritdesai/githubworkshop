@@ -18,6 +18,9 @@
       <!-- Link style.css -->
       <link type="text/css" rel="stylesheet" href="css/style.css"/>
 
+      <!-- Link Font Awesome Fonts -->
+      <script src="https://use.fontawesome.com/98193c2d8f.js"></script>
+
     </head>
 
     <body>
@@ -25,14 +28,16 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo blue-text">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html" class="blue-text">Sass</a></li>
-            <li><a href="badges.html" class="blue-text">Components</a></li>
-            <li><a href="collapsible.html" class="blue-text">JavaScript</a></li>
-          </ul>
+      <nav class="nav">
+        <div class="container">
+          <div>
+            <a href="#" class="brand-logo white-text">Harit Desai</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html" class="white-text">Sass</a></li>
+              <li><a href="badges.html" class="white-text">Components</a></li>
+              <li><a href="collapsible.html" class="white-text">JavaScript</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -41,9 +46,9 @@
         <div class="container">
           <div class="row s4 offset-s4 m4 offset-m4 l4 offset-l4">
             <div class="col s4 offset-s4 m4 offset-m4 l4 offset-l4">
-              <div class="card center-align">
+              <div class="card center-align hoverable">
                 <div class="card-image">
-                  <img src="images/harit.jpg">
+                  <img class="circle responsive-img" src="images/harit.jpg">
                   <span class="card-title">Card Title</span>
                 </div>
                 <div class="card-content">
@@ -61,9 +66,9 @@
       <!-- </div> -->
 
       <div class="container">
-        <ul class="collapsible popout" data-collapsible="accordion">
+        <ul class="collapsible popout" data-collapsible="expandable">
          <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i>First Section</div>
+            <div class="collapsible-header"><i class="fa fa-camera-retro"></i> fa-camera-retro First Section</div>
             <div class="collapsible-body"><p>This is first section.</p></div>
          </li>
          <li>
@@ -79,31 +84,33 @@
       
        
 
-<!--       <footer class="page-footer">
+      <footer class="page-footer">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="blue-text">Footer Content</h5>
-              <p class="blue-text-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="blue-text">Links</h5>
-              <ul>
-                <li><a class="blue-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="blue-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="blue-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="blue-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
+              <h5 class="white-text">Links</h5>
+              <div class="col s3 m3 l3">
+                <a href="https://www.linkedin.com/in/harit-desai/" target="_blank"><i class="fa fa-linkedin-square fa-3x" id="cat" aria-hidden="true"></i> <p class="icon_L">Linkedin</p> </a>
+              </div>
+              <div class="col s3 m3 l3">
+                <a href="https://github.com/haritdesai" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i> <p class="icon_G">Github</p> </a>
+              </div>
+              <div class="col s3 m3 l3">
+                <a href="https://drive.google.com/file/d/0Bw_dLz8VB2lHNEwzMlZfNWxJTk0/view?usp=sharing" target="_blank"><i class="fa fa-file fa-3x" aria-hidden="true"></i><p class="icon_F">Resume</p></a>
+              </div>
+              <div class="col s3 m3 l3">
+                <i class="fa fa-envelope fa-3x" aria-hidden="true"></i> <p>haritmdesai@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
           © 2014 Copyright Text
-          <a class="blue-text text-lighten-4 right" href="#!">More Links</a>
+          <a class="white-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </div>
-      </footer> -->
+      </footer>
 
     </body>
 
