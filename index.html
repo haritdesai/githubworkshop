@@ -21,50 +21,135 @@
       <!-- Link Font Awesome Fonts -->
       <script src="https://use.fontawesome.com/98193c2d8f.js"></script>
 
-    </head>
-
-    <body>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+    </head>
 
-      <nav class="nav">
-        <div class="container">
-          <div>
-            <a href="#" class="brand-logo white-text">Harit Desai</a>
-            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="sass.html" class="white-text">Sass</a></li>
-              <li><a href="badges.html" class="white-text">Components</a></li>
-              <li><a href="collapsible.html" class="white-text">JavaScript</a></li>
-            </ul> -->
-          </div>
+    <body>
+
+    <!-- Nav Bar // Cannot be fixed else JS will break -->
+    <div>
+	  <nav>
+	    <div class="blue-grey darken-2 nav-wrapper ">
+	      <a href="#!" class="brand-logo"><span class="logo white-text text-lighten-1"> Harit Desai </span></a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li class="waves-effect"><a href="#About">About</a></li>
+	        <li class="waves-effect"><a href="#Projects">Projects</a></li>
+	        <li class="waves-effect"><a href="#Contact">Contact</a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="#About">About</a></li>
+	        <li><a href="#Projects">Projects</a></li>
+	        <li><a href="#Contact">Contact</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+	 </div>
+	 <!-- End Nav Bar -->
+
+	 <!-- Intro Image -->
+	  
+	    <!-- <div class="card-panel grey lighten-5 z-depth-1"> -->
+	    <div class="intro container">
+	      <div class="row valign-wrapper">
+	        <div class="col s3">
+	          <img src="images/harit.jpg" alt="" class="circle responsive-img">
+	        </div>
+	        <div class="col s9">
+	          <span class="black-text center-align">
+	          	<h5>Harit Desai</h5>
+	            <h6>ASPIRING SOFTWARE DEVELOPER •  TECH ENTHUSIAST  • &nbsp; EAGER TO LEARN</h6>
+	          </span>
+	        </div>
+	      <!-- </div> -->
+	    </div>
+      </div>
+     <!-- End Intro Image -->
+
+	 <!-- Parallax  -->
+	<div class="parallax-container">  
+      <div class="parallax"><img src="images/macTable.jpeg"></div>
+    </div>
+    <!-- End Parallax -->
+
+
+    <!-- Project Cards -->
+
+      <div class="container" id="Projects">
+        <div class="row">
+          <h2 class="section-header">Projects</h2>
         </div>
-      </nav>
-
-
-      <!-- <div class="valign-wrapper center-align"> -->
-        <div class="container">
-          <div class="row s4 offset-s4 m4 offset-m4 l4 offset-l4">
-            <div class="col s4 offset-s4 m4 offset-m4 l4 offset-l4">
-              <div class="card center-align hoverable">
-                <div class="card-image">
-                  <img class="circle responsive-img" src="images/harit.jpg">
-                  <span class="card-title">Hello World!</span>
-                </div>
-                <div class="card-content">
-                  <p>This site is currently a work in progress, which explains why it feels a little empty around here. Don't worry, there's more to come soon! For now, feel free to click around! </p>
-                </div>
-                <!-- <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div> -->
+        <div class="row">
+          <div class="col l6 m12 s12">
+            <div class="card medium blue-grey darken-2 accent-4 z-depth-2">
+              <div class="card-content white-text">
+                <h3 class="center-align"><i class="fa fa-video-camera fa-3x" aria-hidden="true"></i></h3>
+                <div class="divider"></div>
+                <span class="card-title">Fabflix</span>
+                <p>Pseudo Netflix website where users can browse, search, and rent movies. Implemented with Java Servlets/JSP for back-end and Materialize CSS Framework for front end. Hosted on Amazon AWS using Apache Tomcat. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/haritdesai/Fabflix" target="_blank">See Project</a>
               </div>
             </div>
           </div>
-          <div class="divider"></div>
+          <div class="col l6 m12 s12">
+            <div class="card medium blue-grey lighten-4 darken-4 z-depth-2">
+              <div class="card-content white-text">
+                <h3 class="center-align"><i class="fa fa-gamepad fa-3x" aria-hidden="true"></i></h3>
+                <div class="divider"></div>
+                <span class="card-title">ConnectK AI</span>
+                <p class="">AI implemented in Java that uses Minimax Search, Alpha-Beta Pruning, and Iterative Deepening Search to play Connect 4 on any board size.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/haritdesai/ConnectKAI" target="_blank">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col l6 m12 s12">
+            <div class="card medium blue-grey lighten-4 darken-4 z-depth-2">
+              <div class="card-content white-text">
+                <h3 class="center-align"><i class="fa fa-chrome fa-3x" aria-hidden="true"></i></h3>
+                <div class="divider"></div>
+                <span class="card-title">Web Crawler</span>
+                <p>Implemented a single node in a distributed web crawler with Python and the lxml library to determine valid links and prevent crawler traps while crawling the ics.uci.edu subdomain. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/haritdesai/Web-Crawler" target="_blank">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col l6 m12 s12">
+            <div class="card medium blue-grey darken-2 accent-4 z-depth-2">
+              <div class="card-content white-text">
+                <h3 class="center-align"><i class="fa fa-search fa-3x" aria-hidden="true"></i></h3>
+                <div class="divider"></div>
+                <span class="card-title">Search Engine</span>
+                <p>Used Lucene and the JSoup Dom Parser to create an index of webpages in the ics.uci.edu subdomain. Relevant docs are returned based on search keywords that occur in the title, header, body, and in bold.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/haritdesai/Search-Engine" target="_blank">See Project</a>
+              </div>
+            </div>
+          </div>
         </div>
-      <!-- </div> -->
+      </div>
 
-      <div class="container">
+	<!-- End Project Cards -->
+    
+
+    <!-- Parallax -->
+	<div class="parallax-container">
+      <div class="parallax"><img src="images/macCode.jpeg"></div>
+    </div>
+    <!-- End Parallax -->
+
+
+
+	<!-- Expandables -->
+	<div class="container" id="About">
         <ul class="collapsible popout" data-collapsible="expandable">
          <li>
             <div class="collapsible-header"><i class="material-icons">person</i>About Me</div>
@@ -81,23 +166,27 @@
             </div>
          </li>
          <li>
-            <div class="collapsible-header"><i class="material-icons">code</i>Goals & Experience</div>
-            <div class="collapsible-body"><p><blockquote>I am aspiring software developer actively seeking a full-time position or internship! Find my contact info below. </blockquote></p></div>
+            <div class="collapsible-header"><i class="material-icons">code</i>Goals &amp; Experience</div>
+            <div class="collapsible-body"><p><blockquote>I am aspiring software developer actively seeking a full-time position! In addition to the projects I have listed above, I have taken courses across various disciplines in computer science and am flexible in terms of position requirements. Also, I have worked in leadership positions to cultivate my interpersonal and teamwork skills. Find my links and contact info below for more details! </blockquote></p></div>
          </li>
          <li>
             <div class="collapsible-header"><i class="material-icons">web</i>About Site</div>
-            <div class="collapsible-body"><p><blockquote>The front-end of this site was developed with the open source web framework, Materialize, which is built upon Google's Material Design style and is hosted using Github Pages. I've added my own HTML and CSS elements to customize the framework, which is already easy to use. Check it out at materializecss.com</blockquote></p></div>
+            <div class="collapsible-body"><p><blockquote>The front-end of this site was developed with the open source web framework, Materialize, which is built upon Google's Material Design style and is hosted using Github Pages. I've added my own HTML and CSS elements to customize the framework, check it out at materializecss.com</blockquote></p></div>
          </li>
         </ul>
       </div>      
+	    <!-- End Expandables -->
+
+
+      
       
        
 
-      <footer class="page-footer">
-        <div class="container">
+      <footer class="page-footer blue-grey darken-2">
+        <div class="container" id="Contact">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Links</h5>
+              <span><h5 class="white-text">Links</h5></span>
               <div class="col s3 m3 l3">
                 <a href="https://www.linkedin.com/in/harit-desai/" target="_blank"><i class="fa fa-linkedin-square fa-3x" id="cat" aria-hidden="true"></i> <p class="icon_L">Linkedin</p> </a>
               </div>
@@ -120,6 +209,19 @@
           </div> -->
         </div>
       </footer>
+
+
+
+	  <script type="text/javascript">
+	  	$(document).ready(function(){
+      		$(".button-collapse").sideNav();
+      		$('.parallax').parallax();
+      		$('.collapsible').collapsible('open', 0);
+      		$('.collapsible').collapsible('open', 1);
+      		$('.collapsible').collapsible('open', 2);
+ 		});
+	  </script>
+
 
     </body>
 
